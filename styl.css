@@ -1,0 +1,29 @@
+body{
+    color: rgb(255, 255, 255);
+    background: #53f17b;
+}
+.kol{
+    display :flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.layer {
+    padding: 5px 15px;
+    border: 2px solid #0cd43e;
+    height: 18rem;
+    width: 30%;
+    background: #0cd43e;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #0cd43e;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border-radius: 20px;
+    border:2px solid white;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <title>Teacher</title>
+    <link rel="stylesheet"
+          href="style2.css">
+    <link rel="stylesheet"
+          href="responsive.css">
+          <link rel="icon" href=".\imge/k.png" >
+</head>
+ 
+<body>
+    <header>
+ 
+        <div class="logosec">
+            <div class="logo">Univ Mascara
+            </div>
+            <img src=
+".\imge/menu-burger.png"
+                class="icn menuicn"
+                id="menuicn">
+        </div>
+ 
+        <div class="searchbar">
+            <input type="text"
+                   placeholder="Search">
+            <div class="searchbtn">
+              <img src=
+".\imge/search.png"
+                    class="icn srchicn"
+                >
+              </div>
+            </div>
+            <div class="dp">
+              <img src=
+              "yacine.jpg"
+                    class="dpicn"
+                   >
+              </div>
+        </div>
+ 
+    </header>
+ 
+    <div class="main-container">
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1"> 
+                  
+                        <h3><a href="index2.html"><img src=
+".\imge/home.png"
+                            class="nav-img" id="dash"
+                         >Dashboard</a></h3>
+                    </div>
+ 
+                    <div class="option2 nav-option">
+                       
+                        
+                        <h3><a href="teacher.html"><img src=
+".\imge/user.png"
+                            class="nav-img" id="techer"
+                      >Teacher</a></h3>
+                    </div>
+
+                    <div class="nav-option option4">
+                        
+                        
+                        <h3><a href="student.html"><img src=
+".\imge/users-alt.png"
+                            class="nav-img" id="students"
+                           >Student</a></h3>
+                    </div>
+ 
+                    <div class="nav-option option5">
+                       
+                        
+                        <h3><a href="class.html"><img src=
+".\imge/presentation.png"
+                            class="nav-img" id="class"
+                         >Class</a></h3>
+                    </div>
+
+                    <div class="nav-option logout">
+                       
+                        
+                        <h3><a href="index.html"><img src=
+".\imge/exit.png"
+                            class="nav-img" id="exite"
+                         >Logout</a></h3>
+                    </div>
+ 
+ 
+                </div>
+            </nav>
+        </div>
+        <div class="main" >
+            <div class="opti">
+                        <div class="boxd" style="height: 400px;"><h1>Add</h1>
+                        <form action="ajt.php" method="post" class="frm" >
+                            <div ><input type="text" name="id" placeholder="ID"></div>
+                            <div ><input type="text" name="firstname" placeholder="First Name"></div>
+                         <div><input type="text" name="lastname" placeholder="Last Name"></div>
+                            <div> <input type="text" placeholder="Module" name="module"></div> 
+                            <div><button type="submit">Send</button></div>
+                        </form>
+                        </div>
+                        <div class="boxd" style="height: 400px;"><h1>Modify</h1>
+                            <form  action="mod.php" method="post" class="frm" >
+                                <div ><input type="text" name="id" placeholder="ID"></div>
+                                <div ><input type="text" name="firstname" placeholder="First Name"></div>
+                             <div><input type="text" name="lastname" placeholder="Last Name"></div>
+                                <div> <input type="text" placeholder="Module" name="module"></div> 
+                                <div><button type="submit">Send</button></div>
+                            </form></div>                                
+                        <div class="supre"><h1>Remove</h1>
+                            <form action="rem.php" method="post" class="frm">
+                                <div ><input type="text" name="id" placeholder="ID"></div>
+                                <div><button type="submit">Send</button></div>
+                            </form>
+                        </div> 
+                </div>
+            <div class="report-container"  >
+                <div class="report-header">
+                    <h1 class="recent-Articles">Teacher</h1>
+                    <button class="view">View All</button>
+                </div>
+ 
+                <div class="report-body">
+                    <div class="report-topic-heading">
+                        <h3 class="t-op">ID</h3>
+                        <h3 class="t-op">First Name</h3>
+                        <h3 class="t-op">Last Name</h3>
+                        <h3 class="t-op">Module</h3>
+                    </div>
+ 
+                    <div class="items">
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">1</h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl label-tag"></h3>
+                        </div>
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">2</h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl label-tag"></h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">3</h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl label-tag"></h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">4</h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl label-tag"></h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">5</h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl"></h3>
+                            <h3 class="t-op-nextlvl label-tag"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+            </div>
+        </div>
+    <script >
+         let menuicn = document.querySelector(".menuicn");
+  let nav = document.querySelector(".navcontainer");
+ 
+  menuicn.addEventListener("click",()=>
+  {
+      nav.classList.toggle("navclose");
+  })
+;
+    </script>
+</body>
+</html>

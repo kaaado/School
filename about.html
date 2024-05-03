@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <link rel="icon" href="k.png" sizes="192x192">
+</head>
+<style>
+     @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+     * {
+    margin: 0;
+    padding: 0; 
+}
+  body {
+      overflow: hidden;
+    font-family: "Poppins", sans-serif;
+   font-size:1rem;
+    background-image: url(back.jpg) ;
+    background-repeat:no-repeat;
+  background-size: cover;
+
+}
+.card {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 30px 10px 10px 10px;
+  box-shadow: 0px 0px 20px 0px black;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 25rem;
+    height:26rem;
+}
+@media screen  and (max-width:700px) and(max-height:700px){
+  body{
+    margin-left: 246px;
+    margin-top: 177px;
+  }
+}
+
+@media only screen  and (max-width:650px) {
+.card{
+  height: 50rem !important;
+  width: 44rem !important;
+  margin: 30% auto ;
+}
+h1{
+  margin-top: 0px;
+}
+img{
+  width: 34rem !important;
+  margin-top: 2px;
+}
+.wli{
+   padding: 1rem 3rem;
+    height: 6rem;
+    width: 6rem;
+    position :relative;
+    top:50px;
+   left:30px;
+  }
+}
+.container:hover{
+    color:#0cd43e;
+}
+h1{
+  margin-top: 8px;
+}
+img{
+  border-radius: 20px;
+  border: 2px solid #fff;
+  
+  }
+  img:hover{
+    transform: scale(1.1);
+    border-color: #0cd43e;
+  }
+  .wli{
+    display: flex;
+    justify-content: center;
+    font-size:3rem;
+    font-weight: 600;
+    border: 2px solid #0cd43e;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    height: 4rem;
+    width: 3.5rem;
+    cursor: pointer;
+    background:#0cd43e;
+    position:absolute;
+    top:40px;
+   left:15px;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  }
+</style>
+<body>
+  <main>
+    <a class="wli" href="index.html"><</a>
+    <div class="card" >
+        <img src="yacine.jpg" width="300px">
+        <div class="container">
+          <h1>Yacine Kermame</h1>
+          <p>3 year computer science Student<br>Front-end developper</p>
+        </div>
+        </div>
+      </main>
+      </body>
+      </html>

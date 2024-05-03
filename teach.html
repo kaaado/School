@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    h1:hover{
+  color: #0cd43e;
+    }
+    
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group input[type="time"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #0cd43e;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .student-groups {
+      margin-top: 40px;
+    }
+
+    .student-groups h2 {
+      margin-bottom: 10px;
+    }
+
+    .work-schedule {
+      margin-top: 40px;
+    }
+
+    .work-schedule h2 {
+      margin-bottom: 10px;
+    }
+
+     table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+     th,
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    a{
+        text-decoration: none; 
+        color: black;
+    }
+   a:hover,a:link{
+    color: #0cd43e;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Teacher Page</h1>
+<form action="reserve_class.php" method="post">
+    <div class="form-group">
+      <label for="class-name">Class Name:</label>
+      <input type="text" id="class-name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <div class="form-group">
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time">
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Reserve Class</button>
+    </div>
+</form>
+    <div class="student-groups">
+      <h2>Student Groups</h2>
+      <table>
+        <tbody>
+         <tr>
+        <td><a href="">Group 1</a></td>
+       <td><a href="">Group 2</a></td>
+    </tr>
+    <tr>
+        <td><a href="">Group 3</a> </td>
+         <td><a href="">Group 4</a></td>
+    </tr>
+       <tr>
+       <td><a href="">Group 5</a></td>
+       <td><a href="">Group 6</a></td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    <h2>Total Hours Worked</h2>
+  <p>Total Hours: <?php echo $hour; ?></p>
+  <p>Dates Worked: <?php echo $date; ?></p>
+    <div class="work-schedule">
+      <h2>Work Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

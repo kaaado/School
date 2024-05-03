@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    padding: 50px;
+    background-image: url(back.jpg) ;
+    background-repeat:no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+#km{
+    display: inline;
+    width: 30px;
+    margin-right: 10px;
+}
+.bgh{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.navbar {
+    
+    width:70rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 0 3rem;
+    padding-block: 15px;
+    border-radius: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar h1 {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    margin-right: 50px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a:hover{
+    color:#0cd43e;
+}
+@media screen and (max-width: 650px ) {
+  body{
+    height: 100vh;
+  }
+  .navbar{
+    font-size: 1.49rem;
+  }
+  .form-container{
+    width: 48rem;
+    height: 65rem;
+    border-radius: 3rem;
+  }
+.texte{
+    display: none;
+}
+
+.loginBtn{
+  margin-top: 28px;
+}
+nav h1{
+    display:inline;
+}
+.login-title {
+    font-size: 6.8rem;
+    margin-bottom: 10rem;
+   
+}
+.userName,
+.userPassword {
+    padding: 1.5rem 2rem;
+    border-radius: 3rem;
+    width: 32rem;
+    font-size: 2rem;
+   height: 7rem;
+}
+
+.userName:focus,
+.userPassword:focus {
+    width: 41.5rem;
+}
+
+
+.loginBtn {
+    font-size: 1.7rem;
+width: 15rem;
+height: 5.7rem;
+}
+}
+@media screen and (max-width: 490px ) {
+  body{
+    height: 100vh;
+  }
+  .navbar{
+    font-size: 1.49rem;
+  }
+  .form-container{
+    width: 48rem;
+    height: 65rem;
+    border-radius: 3rem;
+  }
+.texte{
+    display: none;
+}
+
+.loginBtn{
+  margin-top: 28px;
+}
+nav h1{
+    display:inline;
+}
+.login-title {
+    font-size: 6.8rem;
+    margin-bottom: 10rem;
+   
+}
+.userName,
+.userPassword {
+    padding: 1.5rem 2rem;
+    border-radius: 3rem;
+    width: 32rem;
+    font-size: 2rem;
+   height: 7rem;
+}
+
+.userName:focus,
+.userPassword:focus {
+    width: 41.5rem;
+}
+
+
+.loginBtn {
+    font-size: 1.7rem;
+width: 15rem;
+height: 5.7rem;
+}
+}
+@media screen and (max-width: 400px ) {
+  body{
+    height: 100vh;
+  }
+  .navbar{
+    font-size: 1.49rem;
+  }
+  .form-container{
+    width: 48rem;
+    height: 65rem;
+    border-radius: 3rem;
+  }
+.texte{
+    display: none;
+}
+
+.loginBtn{
+  margin-top: 28px;
+}
+nav h1{
+    display:inline;
+}
+.login-title {
+    font-size: 6.8rem;
+    margin-bottom: 10rem;
+   
+}
+.userName,
+.userPassword {
+    padding: 1.5rem 2rem;
+    border-radius: 3rem;
+    width: 32rem;
+    font-size: 2rem;
+   height: 7rem;
+}
+
+.userName:focus,
+.userPassword:focus {
+    width: 41.5rem;
+}
+
+
+.loginBtn {
+    font-size: 1.7rem;
+width: 15rem;
+height: 5.7rem;
+}
+}
+@media only screen and (max-width: 320px ) {
+  body{
+    height: 100vh;
+  }
+  .navbar{
+    font-size: 1.49rem;
+  }
+  .form-container{
+    width: 48rem;
+    height: 65rem;
+    border-radius: 3rem;
+  }
+.texte{
+    display: none;
+}
+
+.loginBtn{
+  margin-top: 28px;
+}
+nav h1{
+    display:inline;
+}
+.login-title {
+    font-size: 6.8rem;
+    margin-bottom: 10rem;
+   
+}
+.userName,
+.userPassword {
+    padding: 1.5rem 2rem;
+    border-radius: 3rem;
+    width: 32rem;
+    font-size: 2rem;
+   height: 7rem;
+}
+
+.userName:focus,
+.userPassword:focus {
+    width: 41.5rem;
+}
+
+
+.loginBtn {
+    font-size: 1.7rem;
+width: 15rem;
+height: 5.7rem;
+}
+}
+@media  screen and (max-width: 1100px ) {
+    .form-container{
+        width: 20rem;
+    height: 27rem;
+    }
+    .userName,
+.userPassword {
+    width: 14rem;
+}
+.userName:focus,
+.userPassword:focus {
+    width: 17.5rem;
+}
+.txt{
+    position: absolute;
+    bottom: 45px;
+    left: 13px;
+}
+}
+#form{
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 10px;
+    padding: 4em 2rem;
+    box-shadow: 0px 0px 20px 0px black;
+    border: 1px solid black;
+    
+}
+
+.login-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+   
+}
+.login-title:hover{
+    color:#0cd43e;
+}
+.userName,
+.userPassword {
+    text-align: center;
+    border: 2px solid #0cd43e;
+    margin: 1rem;
+    color: white;
+    background: transparent;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+.userName:focus,
+.userPassword:focus {
+    width: 20rem;
+}
+
+
+.loginBtn {
+    margin-top: 26px;
+    background: transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 2px solid #0cd43e;
+    padding: 1rem 3rem;
+    border-radius: 6rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    pointer-events: all;
+}
+
+.loginBtn:hover {
+    background: #0cd43e;
+    border: 2px solid #0cd43e;
+}
+span{
+    color:#0cd43e;
+}
+.texte{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: black;
+    color: white;
+    width: 42rem;
+    height: 24rem;
+    border-radius: 10px;
+    padding:3rem;
+    box-shadow: 0px 0px 20px 0px black;
+    border: 1px solid black;
+    display: flex;
+    margin:150px 10px 0;
+}
+.texte img{
+    margin:20px;
+}
+h2{
+    color:#0cd43e;
+}
+.univ{
+    position: absolute;
+    display: block;
+    top: 35%;
+    padding-left: 20%;
+}
+.image_univ{
+    float: left;
+    border: 2px solid #0cd43e;
+    border-radius: 10px;
+}
+.texte span{
+    font-size: x-large;
+}

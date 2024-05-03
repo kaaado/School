@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>جامعة مصطفى اسطمبولي معسكر</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="k.png"  sizes="192x192">
+   
+</head>
+<body>
+   <div class="bgh">
+    <nav class="navbar container">
+        <h1  class="logo"><img src="k.png" id="km" ><span >Univ</span>Mascara</h1>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="about.html" >About me</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <form id="form" action="login.php" method="post"> 
+    <div class="form-container">
+        <h2 class="login-title"> Login </h2>
+        <input type="text" name="firstname" class="userName" id="firstname" placeholder="Username" required>
+        <input type="password" name="lastname"  class="userPassword" id="lastname" placeholder="Password" required>
+        <button id="loginBtn" class="loginBtn" type="submit"  Onclick="validateLogin()"> Login </button>
+    </div>
+    </form>
+    <div class="txt">
+    <div class="texte">
+        <img src="i.jpg" class="image_univ">
+    <p> <span id="element"><b>University Overview</b></span><br>Founded in 1986, Université Mustapha Stambouli de Mascara is a non-profit public higher-education institution located in the urban setting of the city of Mascara (population range of 50,000-249,999 inhabitants). Officially recognized by the Ministry of Higher Education and Scientific Research of Algeria,Univ Mascara is a large (uniRank enrollment range: 20,000-24,999 students) .</p>
+</div>
+    </div>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    let typed = new Typed('#element', {
+      strings: ['<i>University Overview</i> ', '<i> Mustapha Stambouli</i>','<i>Welcome!</i>'],
+      typeSpeed: 70,
+      backSpeed:60,
+      loop:true
+    });
+  
+  </script>
+</body>
+</body>
+</html>
